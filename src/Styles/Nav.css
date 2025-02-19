@@ -1,0 +1,44 @@
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Centered Title */
+  .nav-title {
+    font-size: 22px; /* Smaller font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Centered Navigation Links */
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
