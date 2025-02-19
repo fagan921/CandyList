@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { searchGithub, searchGithubUser } from "../api/API";
 import { Candidate } from "../interfaces/Candidate.interface";
-import "../styles/CandidateSearch.css";
+import "../Styles/CandidateSearch.css";
 const CandidateSearch = () => {
   const [candidate, setCandidate] = useState<Candidate | null>(null);
   const [_savedCandidates, _setSavedCandidates] = useState<Candidate[]>([]);
